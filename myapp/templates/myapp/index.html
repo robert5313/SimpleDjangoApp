@@ -9,22 +9,40 @@
                 body {
                         font-family: Arial, sans-serif;
                         text-align: center;
-                        margin: 50px;
+                        margin: 0;
+                        padding: 0;
+                        background: url('https://images.unsplash.com/photo-1464039397811-476f652a343b?q=80&w=1468&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+                        background-size: cover;
+                        color: #fff;
+                        /* Set text color to white for better visibility on a background image */
                 }
 
-                h1 {
-                        color: #333;
-                }
-
+                h1,
                 p {
-                        color: #666;
+                        margin: 50px 0;
+                }
+
+                img.centered {
+                        display: block;
+                        margin: 0 auto;
+                        width: auto;
+                        height: 200px;
+                        border-radius: 2%;
+
+
                 }
         </style>
 </head>
 
 <body>
         <h1>Welcome to Our Website!</h1>
-        <p>This is a simple Django website</p>
+        <p>This is a simple welcome page created using HTML for Django.</p>
+
+        <img src="https://images.unsplash.com/photo-1598335624134-5bceb5de202d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Centered Image" class="centered">
+                <div>
+                        <h1>Lets conserve nature by planting trees</h1>
+                </div>
 </body>
 
 </html>
