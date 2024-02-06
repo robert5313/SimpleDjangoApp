@@ -7,17 +7,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="{% static 'about.css' %}">
 </head>
+
 <body>
+
+    <nav>
+        <a href="#">SIMPLE DJANGO APP </a>
+        <a href="{% url 'index' %}">Home</a>
+        <a href="{% url 'about' %}">About</a>
+</nav>
+
     <h1> Welcome to the about page </h1> 
     <h3>Conserving  The Environment</h3>
     <p> This is a simple about page created using HTML for Django. </p>
 </body>
 <div class="footer">
-    <h1>           
+    <h3>           
         &copy;
         {% now 'Y' %}
         All rights reserved
-    </h1>
+    </h3>
 </div>
 
 </html>

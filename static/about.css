@@ -15,5 +15,16 @@ body {
     color: white;
     text-align: center;
     width: 100%;
-    
+
+}
+
+nav {
+    background-color: #000000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
 }
